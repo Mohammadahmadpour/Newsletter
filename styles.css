@@ -41,3 +41,7 @@ img{
     display: flex;
     flex-direction: column
 }
+
+.news-form{
+    display: flex;
+}
