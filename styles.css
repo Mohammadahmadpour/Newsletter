@@ -23,6 +23,8 @@
     margin: 100px 0px;
     background-color: #E76F51;
     display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
    
 }
 img{
@@ -44,4 +46,19 @@ img{
 
 .news-form{
     display: flex;
+    height: 5rem;
+    align-items: center;
+}
+
+.submit-icon{
+    outline: none;
+    border: none;
+    background-color: #E76F51;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2rem;
+}
+
+.input-icon{
+    height: 100%;
 }
